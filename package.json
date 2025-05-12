@@ -6,7 +6,8 @@
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
